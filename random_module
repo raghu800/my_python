@@ -1,0 +1,22 @@
+RANDOM_MODULE:
+FUNCTIONS
+#RANDOMRANGE()-this method always give a INTEGER between given lower limit and  upper limit to this method 
+Eg:random.randomrange(20).it will return integers between 0 to 19 (by default except upper limit).
+
+#RANDOM()-this generates floating point between 0 to 1(including 0 and excluding 1).
+Eg:0.99,0.44.........
+
+#RANDINT()-this will take two parameters a and b;it will give ANY INTEGER between limits including a and b.
+Eg:random.randomint(2,8);ans=4,5,8,2...
+
+#UNIFORM()-this method will give a FLOATING POINT NUMBER between two givin numbers.it will include lower limit and except upper limit.
+Eg:random.uniform(2,6);ans=2,5,4....
+
+#CHOICE()-thos method is used for random selection from list and tuple or string.
+Eg:lst=[2,4,5,6]
+random.choice(lst);ans=4,5,2....
+Eg:t=(4,6,8,9)
+random.choice(t);ans=6,4,3...
+Eg:random.choice("python");ans='p','o','n','y'......
+
+
