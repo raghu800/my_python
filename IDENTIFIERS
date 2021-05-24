@@ -1,0 +1,5 @@
+RULES
+1.identifiers are combination of lower-a to z and higher-A to Z  and 0 to 9 and underscore(_).
+2.starting dont use numbers
+3.keywords are not allowed
+4.dont use special characters in any palce in identifiers eg:@,#,%,$......
