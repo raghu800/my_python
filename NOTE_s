@@ -1,0 +1,4 @@
+1.isinstance-is used for the given data type is true or false
+eg:3+5j
+print(isinstance(3+5j,complex)
+o/p=True.
