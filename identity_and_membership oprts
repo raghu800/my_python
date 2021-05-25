@@ -1,0 +1,19 @@
+IDENTITY OPERATORS:
+1.IS AND NOT IS are the identity operators.
+2.they checked whether these values(or variables) are in the same memory aren't.
+eg1:a=4;b=4
+print(a is b);ans=True
+eg2:l2=[3,4,6,7],l5=[3,4,6,7]
+print(l2 is l5);ans=false because lists like complex data types are not in same memory.
+eg3:x="raghu"
+    y="raghu"
+    print(x is y);ans=True.
+    
+
+MEMBERSHIP_OPERATORS:
+1.IN AND NOT IN are the membership operators.
+2.check whether the given sequence of number is present are not in a given(list,tuple,set,dictnory,string)
+eg1:list=[3,4,5,6]
+   print(3 in list);ans=true
+   print(0 not in list);ans=true
+ 
