@@ -21,3 +21,8 @@ eg2:string='raghu is good patience huy upto tenth'
 s=split()
 print(s);ans='raghu','is','good','patience','guy','upto','tenth'
 
+#count()-give a number of times repeate a number in given list.
+lst=[2,3,5,2,8,2]
+print(lst.count(2)//2 repeates two times in alist//
+ans=3
+
