@@ -3,11 +3,21 @@ eg:3+5j
 print(isinstance(3+5j,complex)
 o/p=True.
 
-#difference between append() and extend() is see eg;
+#difference between append() and extend() , let us see eg;
 lst1=[2,4,7,8,5]
 lst2=[9,43,12]
 lst1.append(lst2)
 print(lst1);ans=[2,4,7,8,5,[9,43,12]]
 but in extend() case
 ans=[2,4,7,8,5,9,43,12].
+
+#split()-function
+
+eg1:string='raghu,is,good,patience,guy,upto,tenth'
+s=split(',')
+print(s);ans='raghu','is','good','patience','guy','upto','tenth'
+
+eg2:string='raghu is good patience huy upto tenth'
+s=split()
+print(s);ans='raghu','is','good','patience','guy','upto','tenth'
 
