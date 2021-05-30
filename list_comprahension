@@ -1,0 +1,24 @@
+#without using list_comprahension:
+eg1:
+squares=[]
+for i in range(10):
+  squares.append(i**2)
+print(squares)
+ans=[1,4,9,16,25,36........]
+
+
+#with using list_comprahension:
+eg1:
+squares=[i**2 for i in range(10)] //above program we write in two lines by using list_comprahension//
+print(squares)
+ans=[1,4,9,16.......]
+
+eg2:
+lst=[2,4,-12,16,-10,-20,7,6]
+new_lst=[i for i in lst if i>=0] //using if condition in list_compr...//
+print(new_lst)
+ans=[2,4,16,7,6]
+
+
+
+
