@@ -19,6 +19,31 @@ new_lst=[i for i in lst if i>=0] //using if condition in list_compr...//
 print(new_lst)
 ans=[2,4,16,7,6]
 
+#nested list_comprehension
+#without using nested list comprehence
+eg1:
+matrix=[
+  [3,2,4,5],
+  [6,45,6,9],
+  [8,7,5,4],
+]
+transposed=[]
+for i in range(4):
+  list=[]
+  for row in matrix:
+    list.append(row[i])
+  transposed.append(list)
+print(transposed)
+ans=[[3,6,8],[2,45,7],[4,6,5],[5,9,4]]
+
+eg1:with using nested list_comprension
+transposed=[[row[i] for row in matrix] for i in range(4)]
+print(transposed)
+ans=same above one
+
+
+    
+  
 
 
 
