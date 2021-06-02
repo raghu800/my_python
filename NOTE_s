@@ -12,11 +12,9 @@ but in extend() case
 ans=[2,4,7,8,5,9,43,12].
 
 #split()-function
-
 eg1:string='raghu,is,good,patience,guy,upto,tenth'
 s=split(',')
 print(s);ans='raghu','is','good','patience','guy','upto','tenth'
-
 eg2:string='raghu is good patience huy upto tenth'
 s=split()
 print(s);ans='raghu','is','good','patience','guy','upto','tenth'
@@ -26,3 +24,4 @@ lst=[2,3,5,2,8,2]
 print(lst.count(2)//2 repeates two times in alist//
 ans=3
 
+#iists are mutable(can change the position of the element) and tuples are immutable(can't change the position of the element).
