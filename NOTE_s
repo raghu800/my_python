@@ -24,4 +24,5 @@ lst=[2,3,5,2,8,2]
 print(lst.count(2)//2 repeates two times in alist//
 ans=3
 
-#iists are mutable(can change the position of the element) and tuples are immutable(can't change the position of the element).
+#iists,sets,dictonarys are mutable(can change the position of the element) and tuples are immutable(can't change the position of the element).
+#set is unordered type
