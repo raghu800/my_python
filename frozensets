@@ -1,0 +1,6 @@
+1.frozensets are immutable like tuple.even immutable they are not support add and remove functions.
+2.frozensets are used as frozenset().
+3.frozensets are supported union(|),intersection(&),symmetric_difference(^),issubset(),difference(-),issuperset().....
+4.In dictnories set is not used as a keyelements but frozenset is used as a key elements in dictionary.
+eg:set1=frozenset([2,4,6,8])
+   set2=frozenset([5,1,9,0])
