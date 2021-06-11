@@ -26,3 +26,21 @@ ans=3
 
 #iists,sets,dictonarys are mutable(can change the position of the element) and tuples are immutable(can't change the position of the element).
 #set is unordered type
+
+#In strings split() and join() methods:
+##split()
+s="raghunath is a university topper"
+s.split()
+print(s)
+ans="raghunath","is","a","university","topper".
+
+##join()
+''.join(['hari','is','good','boy'])
+ans=hari is good boy.
+
+
+
+
+
+
+
